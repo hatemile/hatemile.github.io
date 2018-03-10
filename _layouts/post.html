@@ -3,7 +3,10 @@ layout: default
 ---
 <div class="post-content well">
 <article class="content">
-    <div class="post">{{ content }}</div>
+    <div class="post">
+        <h2 class="home-subtitle">{{ page.title }}</h2>
+        {{ content }}
+    </div>
     <hr />
     {% include share-page.html %}
 </article>
