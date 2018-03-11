@@ -121,7 +121,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
         margin-top: 0px;
     }
 }
-footer {
+.footer-page {
     border-top: 1px solid #C5C0C0;
     width: 100%;
     height: 10px;
