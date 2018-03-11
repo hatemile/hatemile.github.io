@@ -1,8 +1,10 @@
 .main.outer{padding-top: 50px;}
 .header-panel.shadow-z-2 {
-    background-color: #009587;
     padding: 50px 0 15px 0;
     width: 100%;
+}
+.header-panel.shadow-z-2, nav.menu.navbar.navbar-default {
+    background-color: #00554D;
 }
 .full{ font-size: 16px; }
 .logo-img {
@@ -62,13 +64,11 @@
     margin: 5px 0;
 }
 
-.menu ul.nav li a:hover, .menu ul.nav li a:focus, li.current-menu-item > a {
-    background: #007D72;
+.menu ul.nav li a:hover, .menu ul.nav li a:focus, .navbar .navbar-nav > li.current-menu-item > a {
+    background: #FFFFFF;
+    color: #00554D;
 }
-li.current-menu-item > a {
-    border: 1px solid #B8CA28;
-}
-.menu ul li a {
+.nav.navbar-nav.post li {
     font-weight: bold;
     color: #fff;
 }
