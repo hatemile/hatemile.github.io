@@ -8,6 +8,7 @@ about: Improving accessibility for web pages.
 baseurl: ""
 url: ""
 
+disqus_enabled: false
 disqus_shortname: aboutashu
 google_analytics: UA-72862926-1
 
