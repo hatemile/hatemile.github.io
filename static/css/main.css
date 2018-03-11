@@ -49,7 +49,7 @@
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    color: #009688;
+    color: #00554D;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -57,7 +57,7 @@
 }
 .icon:hover {
     color: rgba(255, 255, 255, 0.63);
-    background: #009688;
+    background: #00554D;
 }
 .menu ul li {
     list-style: none;
@@ -76,7 +76,7 @@
     font-size: 26px;
     margin-bottom: 32px;
     margin-top: 5px;
-    color: #01c87b;
+    color: #014A2E;
     font-weight: 300;
 }
 span.tags{ margin: 0 2px;cursor: pointer;display: inline-block;}
@@ -135,4 +135,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 .pager li.active a {
     background: rgba(89, 148, 129, 0.3);
+}
+a, a:focus, a:hover {
+    color: #0628d6;
 }
