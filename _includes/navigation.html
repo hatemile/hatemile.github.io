@@ -12,6 +12,6 @@
     {% assign target = i.target %}
     {% unless target %} {% assign target = '_self' %} {% endunless %}
     {% if pageurl == menuurl or page.layout == i.layout %} {% assign current = 'current-menu-item' %} {% endif %}
-    <li class="{{ current }} {{ pageurl }}"><a href="{{ linkurl }}" target="{{ target }}"><i class="fa {{ i.icon }}"></i> {{ i.text }}</a></li>
+    <li class="{{ current }} {{ pageurl }}"><a href="{{ linkurl }}" target="{{ target }}"><span class="fa {{ i.icon }}" aria-hidden="true"></span> {{ i.text }}</a></li>
 {% endfor %}
 </ul>
