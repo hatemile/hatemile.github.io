@@ -139,3 +139,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 a, a:focus, a:hover {
     color: #0628d6;
 }
+span.label {
+    background: #515151;
+}
