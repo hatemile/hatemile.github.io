@@ -11,6 +11,11 @@
         "icon": "fa-desktop"
     },
     {
+        "text": "Help us translate",
+        "url": "/translate",
+        "icon": "fa-globe"
+    },
+    {
         "text": "Github",
         "url": "https://github.com/hatemile",
         "icon": "fa-github"
