@@ -2,7 +2,6 @@
 	$(document).ready(function(){
 		var selectedTags = [];
 		$(document).on('click','.tag-filter',function(){
-			console.log("Tags", selectedTags);
 			if( $(this).hasClass('all')){
 				selectedTags = [];
 				$('span.tag-filter').removeClass("label-primary");
@@ -12,10 +11,12 @@
 				if( $(this).hasClass("label-primary") ){
 					selectedTags.removeTag( $(this).data('tag') );
 					$(this).removeClass("label-primary");
+					this.setAttribute('aria-pressed', 'false');
 				}
 				else{
 					selectedTags.addTag( $(this).data('tag') );
 					$(this).addClass("label-primary");
+					this.setAttribute('aria-pressed', 'true');
 				}
 				$('.project-item').filterTags( selectedTags );
 			}
@@ -38,7 +39,6 @@
 	    return this.each(function() {
 	    	var itemTagArray = JSON.parse( $(this).attr('data-tags') );
 	    	var unfound = $( tagNames ).not( itemTagArray ).get();
-	    	console.log("unfound", unfound, itemTagArray.length);
 	    	if( unfound.length == tagNames.length ){
 		//	if($.inArray(tagName, itemTagArray) === -1){
 				$(this).addClass('not-show');

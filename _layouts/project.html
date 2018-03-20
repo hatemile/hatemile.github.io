@@ -26,7 +26,7 @@ layout: default
                             <div class="tag-holder">
                             {% if i.tags %} 
                                 {% for j in i.tags %}
-                                <span class="label tags tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
+                                <button class="label tags tag-filter" data-tag="{{ j | downcase }}" aria-pressed="false">{{ j }}</button>
                                 {% endfor %}
                             {% endif %}
                             </div>
