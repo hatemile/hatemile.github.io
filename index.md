@@ -1,4 +1,7 @@
-# About HaTeMiLe
+---
+layout: page
+title: About
+---
 
 HaTeMiLe (HTML Accessible) is a open source library developed to improve accessibility converting a HTML code in a new HTML code more accessible, its features is based in WCAG 2.0 document, e-MAG 3.1 document and some features of Job Access With Speech (JAWS), Opera before version 15 and Mozilla Firefox.
 
