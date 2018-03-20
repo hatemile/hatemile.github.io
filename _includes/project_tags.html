@@ -8,12 +8,11 @@
             {% endfor %}
         {% endfor %}
 
-        {% assign tags = tagarray[1] %}
+        {% assign tags = "" %}
         {% for item in tagarray %}
-            {% assign tagDown = item | downcase %}
-            {% assign tagComp = tags | downcase %}
-            {% unless tagComp contains tagDown %}
-                {% capture tags %}{{ tags }}|{{ item }}{% endcapture %}
+            {% assign tagDown = item | append: "|" %}
+            {% unless tags contains tagDown %}
+                {% capture tags %}{{ tags }}{{ item }}|{% endcapture %}
             {% endunless %}
         {% endfor %}
 
