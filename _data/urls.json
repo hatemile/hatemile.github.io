@@ -16,6 +16,11 @@
         "icon": "fa-globe"
     },
     {
+        "text": "Donate",
+        "url": "/donate",
+        "icon": "fa-bitcoin"
+    },
+    {
         "text": "Github",
         "url": "https://github.com/hatemile",
         "icon": "fa-github"
