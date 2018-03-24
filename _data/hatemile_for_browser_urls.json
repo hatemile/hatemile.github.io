@@ -5,6 +5,11 @@
         "icon": "fa-home"
     },
     {
+        "text": "Contributing",
+        "url": "/projects/hatemile_for_browser/contributing/",
+        "icon": "fa-star"
+    },
+    {
         "text": "Github",
         "url": "https://github.com/hatemile/web-extension-hatemile-for-browser",
         "icon": "fa-github"
