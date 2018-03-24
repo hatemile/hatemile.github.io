@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="col-md-3 col-xs-12">
+        {% include sidemenu.html %}
+    </div>
+    <div class="col-md-9 col-xs-12 full">
+        <main>
+            <section class="well">
+                <article>
+                    <header>
+                        <h2 class="home-subtitle">{{ page.title }}</h2>
+                    </header>
+                    <div>
+                        {{ content }}
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+[
+    {
+        "text": "HaTeMiLe for Browser",
+        "url": "/projects/hatemile_for_browser/",
+        "icon": "fa-home"
+    },
+    {
+        "text": "Github",
+        "url": "https://github.com/hatemile/web-extension-hatemile-for-browser",
+        "icon": "fa-github"
+    }
+]
