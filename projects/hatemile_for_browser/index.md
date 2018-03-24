@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: project_page
 title: HaTeMiLe for Browser
 permalink: /projects/hatemile_for_browser/
 ---
 
-Improve the accessibility of web pages, especially for users who use screen readers or navigate using the keyboard.
+HaTeMile for Browser are browser extensions and plug-ins, that improve accessibility converting a HTML code in a new HTML code more accessible for users using features of HaTeMiLe even that page not use it.
 
 ### Features
 
