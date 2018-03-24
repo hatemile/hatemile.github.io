@@ -1,16 +1,13 @@
 (function () {
     this.hatemile_configuration_skippers = [{
         'selector': 'main,[role=main]',
-        'description': 'skipper-main-content',
-        'shortcut': '1'
+        'description': 'skipper-main-content'
     }, {
         'selector': '#container-shortcuts',
-        'description': 'skipper-shortcuts-list',
-        'shortcut': '9'
+        'description': 'skipper-shortcuts-list'
     }, {
         'selector': '#container-heading',
-        'description': 'skipper-table-contents',
-        'shortcut': '0'
+        'description': 'skipper-table-contents'
     }];
 
 }).call(this);
