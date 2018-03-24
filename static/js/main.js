@@ -30,7 +30,6 @@
         accessibleNavigation.provideNavigationToAllLongDescriptions();
         accessibleNavigation.provideNavigationByAllSkippers();
         
-        accessibleDisplay.displayAllShortcuts();
         accessibleDisplay.displayAllLanguages();
         accessibleDisplay.displayAllRoles();
     });
