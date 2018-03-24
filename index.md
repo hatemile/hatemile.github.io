@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-HaTeMiLe (HTML Accessible) is a open source library developed to improve accessibility converting a HTML code in a new HTML code more accessible, its features is based in [WCAG 2.0 document](https://www.w3.org/TR/WCAG20/), [e-MAG 3.1 document](https://www.governodigital.gov.br/documentos-e-arquivos/eMAGv31.pdf) and some features of Job Access With Speech (JAWS), Opera before version 15 and Mozilla Firefox.
+HaTeMiLe (HTML Accessible) is a open source library developed to improve accessibility converting a HTML code in a new HTML code more accessible, its features is based in [WCAG 2.0 document](https://www.w3.org/TR/WCAG20/), [eMAG 3.1 document](http://emag.governoeletronico.gov.br/) and some features of Job Access With Speech (JAWS), Opera before version 15 and Mozilla Firefox.
 
 HaTeMiLe objectives:
 * Improve the accessibility of pages, avoiding create new inaccessibility problems;
