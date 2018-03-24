@@ -21,7 +21,6 @@
         accessibleDisplay.displayAllLinksAttributes();
         accessibleDisplay.displayAllAlternativeTextImages();
         accessibleDisplay.displayAllTitles();
-        accessibleDisplay.displayAllShortcuts();
         
         var accessibleNavigation = new hatemile.implementation
                 .AccessibleNavigationImplementation(htmlParser, configure,
