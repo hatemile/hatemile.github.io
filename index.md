@@ -13,9 +13,9 @@ HaTeMiLe objectives:
 * Allow that users and developers can change the texts of library;
 * Allow that the library can be used, extended and changed for any people.
 
-HaTeMile for Browser are browser extensions and plug-ins, to users can use features of HaTeMiLe even that page not use it. Currently the HaTeMiLe for Browser is published in following browsers:
+[HaTeMile for Browser](/projects/hatemile_for_browser/) are browser extensions and plug-ins, to users can use features of HaTeMiLe even that page not use it. Currently the HaTeMiLe for Browser is published in following browsers:
 * [HaTeMiLe for Browser extension for Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/hatemile-for-browser/);
 * [HaTeMiLe for Browser extension for Google Chrome and Chromium](https://chrome.google.com/webstore/detail/hatemile-for-browser/cgmocdadonifbjlfaeedjdlhghkpfcok);
 * [HaTeMiLe for Browser extension for Opera](https://addons.opera.com/en/extensions/details/hatemile-for-browser/).
 
-Developers and researchers, [see our page of projects](/projects).
+Developers and researchers, [see our page of projects](/projects/).
