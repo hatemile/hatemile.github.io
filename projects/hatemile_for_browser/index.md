@@ -18,7 +18,7 @@ If you want contribute with HaTeMiLe for Browser, read [contributing guidelines]
 
 To install this extension on your browser, select the link of your respective browser:
 
-* [Mozilla Firefox](https://addons.mozilla.org/en/firefox/addon/hatemile-for-browser/)
-* [Google Chrome, Chromium](https://chrome.google.com/webstore/detail/hatemile-for-browser/cgmocdadonifbjlfaeedjdlhghkpfcok)
-* [Opera](https://addons.opera.com/en/extensions/details/hatemile-for-browser/)
+* [HaTeMiLe for Browser extension for Mozilla Firefox](https://addons.mozilla.org/en/firefox/addon/hatemile-for-browser/);
+* [HaTeMiLe for Browser extension for Google Chrome and Chromium](https://chrome.google.com/webstore/detail/hatemile-for-browser/cgmocdadonifbjlfaeedjdlhghkpfcok);
+* [HaTeMiLe for Browser extension for Opera](https://addons.opera.com/en/extensions/details/hatemile-for-browser/).
 
