@@ -78,7 +78,8 @@ nav.sidemenu ul.nav li a {
 , .menu ul.nav li a:focus
 , .navbar .navbar-nav > li.current-menu-item > a
 , .sidemenu ul.nav li a:hover
-, .sidemenu ul.nav li a:focus {
+, .sidemenu ul.nav li a:focus
+, nav.sidemenu ul.nav li.current-menu-item > a {
     background: #FFFFFF;
     color: #00554D;
 }
