@@ -1,5 +1,5 @@
 <ul class="list-separator nav well well-primary {{ page.layout }}">
-{% for i in site.data.hatemile_for_browser_urls %}
+{% for i in site.data.projects_pages %}
     {% assign current = nil %}
     {% assign pageurl = page.url | split:'/' | last %}
     {% assign menuurl = i.url | split:'/' | last %}
