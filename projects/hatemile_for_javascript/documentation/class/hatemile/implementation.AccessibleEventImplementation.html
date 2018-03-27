@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset='UTF-8'>
+  <title>Documentation</title>
+  <script src='../../javascript/application.js'></script>
+  <script src='../../javascript/search.js'></script>
+  <link rel='stylesheet' href='../../stylesheets/application.css' type='text/css'>
+</head>
+  <body>
+    <div id='base' data-path='../../'></div>
+<div id='header'>
+  <div id='menu'>
+    <a href='../../extra/README.md.html' title='Codo'>
+      Codo
+    </a>
+    &raquo;
+    <a href='../../alphabetical_index.html' title='Index'>
+      Index
+    </a>
+    &raquo;
+    <span class='title'>hatemile</span>
+    &raquo;
+    <span class='title'>implementation</span>
+    &raquo;
+    <span class='title'>AccessibleEventImplementation</span>
+  </div>
+</div>
+    <div id='content'>
+      <h1>
+        Class:
+        hatemile.implementation.AccessibleEventImplementation
+      </h1>
+      <table class='box'>
+        <tr>
+          <td>Defined in:</td>
+          <td>coffee&#47;hatemile&#47;implementation&#47;AccessibleEventImplementation.coffee</td>
+        </tr>
+        <tr>
+          <td>Extends:</td>
+          <td>
+            hatemile.AccessibleEvent
+          </td>
+        </tr>
+      </table>
+      <h2>Overview</h2>
+      <div class='docstring'>
+  <p>The AccessibleEventImplementation class is official implementation of
+<a href='../../class/hatemile/AccessibleEvent.html'>hatemile.AccessibleEvent</a>.</p>
+</div>
+<div class='tags'>
+</div>
+      <h2>Instance Method Summary</h2>
+      <ul class='summary'>
+  <li>
+    <span class='signature'>
+      <a href='#makeAccessibleDropEvents-dynamic'>
+        #
+(void)
+<b>makeAccessibleDropEvents</b><span>(element)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Make the drop events of element available from a keyboard. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#makeAccessibleDragEvents-dynamic'>
+        #
+(void)
+<b>makeAccessibleDragEvents</b><span>(element)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Make the drag events of element available from a keyboard. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#makeAccessibleAllDragandDropEvents-dynamic'>
+        #
+(void)
+<b>makeAccessibleAllDragandDropEvents</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Make all Drag-and-Drop events of page available from a keyboard. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#makeAccessibleHoverEvents-dynamic'>
+        #
+(void)
+<b>makeAccessibleHoverEvents</b><span>(element)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Make the hover events of element available from a keyboard. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#makeAccessibleAllHoverEvents-dynamic'>
+        #
+(void)
+<b>makeAccessibleAllHoverEvents</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Make all hover events of page available from a keyboard. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#makeAccessibleClickEvents-dynamic'>
+        #
+(void)
+<b>makeAccessibleClickEvents</b><span>(element)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Make the click events of element available from a keyboard. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#makeAccessibleAllClickEvents-dynamic'>
+        #
+(void)
+<b>makeAccessibleAllClickEvents</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Make all click events of page available from a keyboard. 
+    </span>
+  </li>
+</ul>
+      <h2>Constructor Details</h2>
+      <div class='methods'>
+  <div class='method_details'>
+    <p class='signature' id='constructor-dynamic'>
+      #
+(void)
+<b>constructor</b><span>(parser)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Initializes a new object that manipulate the accessibility of the Javascript
+events of elements of parser.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>parser</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMParser.html'>hatemile.util.html.HTMLDOMParser</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The HTML parser. </span>
+    </li>
+  </ul>
+</div>
+  </div>
+</div>
+      <h2>Instance Method Details</h2>
+      <div class='methods'>
+  <div class='method_details'>
+    <p class='signature' id='makeAccessibleDropEvents-dynamic'>
+      #
+(void)
+<b>makeAccessibleDropEvents</b><span>(element)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Make the drop events of element available from a keyboard.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>element</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The element with drop events. </span>
+    </li>
+  </ul>
+  <h3>See also:</h3>
+  <ul class='see'>
+    <li>
+      <a href='../../class/hatemile/AccessibleEvent.html#makeAccessibleDropEvents-dynamic'>hatemile.AccessibleEvent#makeAccessibleDropEvents</a>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='makeAccessibleDragEvents-dynamic'>
+      #
+(void)
+<b>makeAccessibleDragEvents</b><span>(element)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Make the drag events of element available from a keyboard.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>element</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The element with drag events. </span>
+    </li>
+  </ul>
+  <h3>See also:</h3>
+  <ul class='see'>
+    <li>
+      <a href='../../class/hatemile/AccessibleEvent.html#makeAccessibleDragEvents-dynamic'>hatemile.AccessibleEvent#makeAccessibleDragEvents</a>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='makeAccessibleAllDragandDropEvents-dynamic'>
+      #
+(void)
+<b>makeAccessibleAllDragandDropEvents</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Make all Drag-and-Drop events of page available from a keyboard.</p>
+</div>
+<div class='tags'>
+  <h3>See also:</h3>
+  <ul class='see'>
+    <li>
+      <a href='../../class/hatemile/AccessibleEvent.html#makeAccessibleAllDragandDropEvents-dynamic'>hatemile.AccessibleEvent#makeAccessibleAllDragandDropEvents</a>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='makeAccessibleHoverEvents-dynamic'>
+      #
+(void)
+<b>makeAccessibleHoverEvents</b><span>(element)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Make the hover events of element available from a keyboard.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>element</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The element with hover events. </span>
+    </li>
+  </ul>
+  <h3>See also:</h3>
+  <ul class='see'>
+    <li>
+      <a href='../../class/hatemile/AccessibleEvent.html#makeAccessibleHoverEvents-dynamic'>hatemile.AccessibleEvent#makeAccessibleHoverEvents</a>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='makeAccessibleAllHoverEvents-dynamic'>
+      #
+(void)
+<b>makeAccessibleAllHoverEvents</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Make all hover events of page available from a keyboard.</p>
+</div>
+<div class='tags'>
+  <h3>See also:</h3>
+  <ul class='see'>
+    <li>
+      <a href='../../class/hatemile/AccessibleEvent.html#makeAccessibleAllHoverEvents-dynamic'>hatemile.AccessibleEvent#makeAccessibleAllHoverEvents</a>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='makeAccessibleClickEvents-dynamic'>
+      #
+(void)
+<b>makeAccessibleClickEvents</b><span>(element)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Make the click events of element available from a keyboard.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>element</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The element with click events. </span>
+    </li>
+  </ul>
+  <h3>See also:</h3>
+  <ul class='see'>
+    <li>
+      <a href='../../class/hatemile/AccessibleEvent.html#makeAccessibleClickEvents-dynamic'>hatemile.AccessibleEvent#makeAccessibleClickEvents</a>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='makeAccessibleAllClickEvents-dynamic'>
+      #
+(void)
+<b>makeAccessibleAllClickEvents</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Make all click events of page available from a keyboard.</p>
+</div>
+<div class='tags'>
+  <h3>See also:</h3>
+  <ul class='see'>
+    <li>
+      <a href='../../class/hatemile/AccessibleEvent.html#makeAccessibleAllClickEvents-dynamic'>hatemile.AccessibleEvent#makeAccessibleAllClickEvents</a>
+    </li>
+  </ul>
+</div>
+  </div>
+</div>
+    </div>
+    <div id='footer'>
+  By
+  <a href='https://github.com/coffeedoc/codo' title='CoffeeScript API documentation generator'>
+    Codo
+  </a>
+  2.1.2
+  &#10034;
+  Press H to see the keyboard shortcuts
+  &#10034;
+  <a href='http://twitter.com/netzpirat' target='_parent'>@netzpirat</a>
+  &#10034;
+  <a href='http://twitter.com/_inossidabile' target='_parent'>@_inossidabile</a>
+</div>
+<iframe id='search_frame'></iframe>
+<div id='fuzzySearch'>
+  <input type='text'>
+  <ol></ol>
+</div>
+<div id='help'>
+  <p>
+    Quickly fuzzy find classes, mixins, methods, file:
+  </p>
+  <ul>
+    <li>
+      <span>T</span>
+      Open fuzzy finder dialog
+    </li>
+  </ul>
+  <p>
+    Control the navigation frame:
+  </p>
+  <ul>
+    <li>
+      <span>L</span>
+      Toggle list view
+    </li>
+    <li>
+      <span>C</span>
+      Show class list
+    </li>
+    <li>
+      <span>I</span>
+      Show mixin list
+    </li>
+    <li>
+      <span>F</span>
+      Show file list
+    </li>
+    <li>
+      <span>M</span>
+      Show method list
+    </li>
+    <li>
+      <span>E</span>
+      Show extras list
+    </li>
+  </ul>
+  <p>
+    You can focus and blur the search input:
+  </p>
+  <ul>
+    <li>
+      <span>S</span>
+      Focus search input
+    </li>
+    <li>
+      <span>Esc</span>
+      Blur search input
+    </li>
+  </ul>
+</div>
+  </body>
+</html>

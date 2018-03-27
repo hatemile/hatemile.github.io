@@ -28,5 +28,11 @@
         "url": "/projects/hatemile_for_javascript/",
         "icon": "fa-home",
         "project": "hatemile_for_javascript"
+    },
+    {
+        "text": "Documentation",
+        "url": "/projects/hatemile_for_javascript/documentation/",
+        "icon": "fa-book",
+        "project": "hatemile_for_javascript"
     }
 ]

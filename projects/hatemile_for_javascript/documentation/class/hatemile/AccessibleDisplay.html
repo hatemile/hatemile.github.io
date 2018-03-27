@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset='UTF-8'>
+  <title>Documentation</title>
+  <script src='../../javascript/application.js'></script>
+  <script src='../../javascript/search.js'></script>
+  <link rel='stylesheet' href='../../stylesheets/application.css' type='text/css'>
+</head>
+  <body>
+    <div id='base' data-path='../../'></div>
+<div id='header'>
+  <div id='menu'>
+    <a href='../../extra/README.md.html' title='Codo'>
+      Codo
+    </a>
+    &raquo;
+    <a href='../../alphabetical_index.html' title='Index'>
+      Index
+    </a>
+    &raquo;
+    <span class='title'>hatemile</span>
+    &raquo;
+    <span class='title'>AccessibleDisplay</span>
+  </div>
+</div>
+    <div id='content'>
+      <h1>
+        Class:
+        hatemile.AccessibleDisplay
+        <span class='note title'>Abstract</span>
+      </h1>
+      <table class='box'>
+        <tr>
+          <td>Defined in:</td>
+          <td>coffee&#47;hatemile&#47;AccessibleDisplay.coffee</td>
+        </tr>
+      </table>
+      <h2>Overview</h2>
+      <div class='docstring'>
+  <div class='abstract note'>
+    <strong>
+      This
+      class
+      is abstract.
+    </strong>
+    
+  </div>
+  <p>The AccessibleDisplay interface improve accessibility, showing informations.</p>
+</div>
+<div class='tags'>
+</div>
+      <h2>Instance Method Summary</h2>
+      <ul class='summary'>
+  <li>
+    <span class='signature'>
+      <a href='#displayShortcut-dynamic'>
+        #
+(void)
+<b>displayShortcut</b><span>(element)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the shortcut of element. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayAllShortcuts-dynamic'>
+        #
+(void)
+<b>displayAllShortcuts</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display all shortcuts of page. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayRole-dynamic'>
+        #
+(void)
+<b>displayRole</b><span>(element)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the WAI-ARIA role of element. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayAllRoles-dynamic'>
+        #
+(void)
+<b>displayAllRoles</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the WAI-ARIA roles of all elements of page. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayCellHeader-dynamic'>
+        #
+(void)
+<b>displayCellHeader</b><span>(tableCell)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the headers of each data cell of table. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayAllCellHeaders-dynamic'>
+        #
+(void)
+<b>displayAllCellHeaders</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the headers of each data cell of all tables of page. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayWAIARIAStates-dynamic'>
+        #
+(void)
+<b>displayWAIARIAStates</b><span>(element)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the WAI-ARIA attributes of element. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayAllWAIARIAStates-dynamic'>
+        #
+(void)
+<b>displayAllWAIARIAStates</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the WAI-ARIA attributes of all elements of page. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayLinkAttributes-dynamic'>
+        #
+(void)
+<b>displayLinkAttributes</b><span>(link)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the attributes of link. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayAllLinksAttributes-dynamic'>
+        #
+(void)
+<b>displayAllLinksAttributes</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the attributes of all links of page. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayTitle-dynamic'>
+        #
+(void)
+<b>displayTitle</b><span>(element)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the title of element. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayAllTitles-dynamic'>
+        #
+(void)
+<b>displayAllTitles</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the titles of all elements of page. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayDragAndDrop-dynamic'>
+        #
+(void)
+<b>displayDragAndDrop</b><span>(element)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display that the element has drag-and-drop event. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayAllDragsAndDrops-dynamic'>
+        #
+(void)
+<b>displayAllDragsAndDrops</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display that an elements of page have drag-and-drop events. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayLanguage-dynamic'>
+        #
+(void)
+<b>displayLanguage</b><span>(element)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the language of element. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayAllLanguages-dynamic'>
+        #
+(void)
+<b>displayAllLanguages</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the language of all elements of page. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayAlternativeTextImage-dynamic'>
+        #
+(void)
+<b>displayAlternativeTextImage</b><span>(image)</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the alternative text of image. 
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#displayAllAlternativeTextImages-dynamic'>
+        #
+(void)
+<b>displayAllAlternativeTextImages</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+      Display the alternative text of all images of page. 
+    </span>
+  </li>
+</ul>
+      <h2>Instance Method Details</h2>
+      <div class='methods'>
+  <div class='method_details'>
+    <p class='signature' id='displayShortcut-dynamic'>
+      #
+(void)
+<b>displayShortcut</b><span>(element)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the shortcut of element.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>element</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The element. </span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayAllShortcuts-dynamic'>
+      #
+(void)
+<b>displayAllShortcuts</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display all shortcuts of page.</p>
+</div>
+<div class='tags'>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayRole-dynamic'>
+      #
+(void)
+<b>displayRole</b><span>(element)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the WAI-ARIA role of element.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>element</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The element. </span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayAllRoles-dynamic'>
+      #
+(void)
+<b>displayAllRoles</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the WAI-ARIA roles of all elements of page.</p>
+</div>
+<div class='tags'>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayCellHeader-dynamic'>
+      #
+(void)
+<b>displayCellHeader</b><span>(tableCell)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the headers of each data cell of table.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>tableCell</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The table cell. </span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayAllCellHeaders-dynamic'>
+      #
+(void)
+<b>displayAllCellHeaders</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the headers of each data cell of all tables of page.</p>
+</div>
+<div class='tags'>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayWAIARIAStates-dynamic'>
+      #
+(void)
+<b>displayWAIARIAStates</b><span>(element)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the WAI-ARIA attributes of element.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>element</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The element with WAI-ARIA attributes. </span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayAllWAIARIAStates-dynamic'>
+      #
+(void)
+<b>displayAllWAIARIAStates</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the WAI-ARIA attributes of all elements of page.</p>
+</div>
+<div class='tags'>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayLinkAttributes-dynamic'>
+      #
+(void)
+<b>displayLinkAttributes</b><span>(link)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the attributes of link.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>link</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The link element. </span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayAllLinksAttributes-dynamic'>
+      #
+(void)
+<b>displayAllLinksAttributes</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the attributes of all links of page.</p>
+</div>
+<div class='tags'>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayTitle-dynamic'>
+      #
+(void)
+<b>displayTitle</b><span>(element)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the title of element.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>element</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The element with title. </span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayAllTitles-dynamic'>
+      #
+(void)
+<b>displayAllTitles</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the titles of all elements of page.</p>
+</div>
+<div class='tags'>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayDragAndDrop-dynamic'>
+      #
+(void)
+<b>displayDragAndDrop</b><span>(element)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display that the element has drag-and-drop event.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>element</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The element with drag or drop events. </span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayAllDragsAndDrops-dynamic'>
+      #
+(void)
+<b>displayAllDragsAndDrops</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display that an elements of page have drag-and-drop events.</p>
+</div>
+<div class='tags'>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayLanguage-dynamic'>
+      #
+(void)
+<b>displayLanguage</b><span>(element)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the language of element.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>element</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The element. </span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayAllLanguages-dynamic'>
+      #
+(void)
+<b>displayAllLanguages</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the language of all elements of page.</p>
+</div>
+<div class='tags'>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayAlternativeTextImage-dynamic'>
+      #
+(void)
+<b>displayAlternativeTextImage</b><span>(image)</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the alternative text of image.</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>image</span>
+      <span class='type'>
+        (
+          <tt><a href='../../class/hatemile/util.html.HTMLDOMElement.html'>hatemile.util.html.HTMLDOMElement</a></tt>
+        )
+      </span>
+      &mdash;
+      <span class='desc'>The image. </span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='displayAllAlternativeTextImages-dynamic'>
+      #
+(void)
+<b>displayAllAlternativeTextImages</b><span>()</span>
+      <br>
+    </p>
+    <div class='docstring'>
+  <p>Display the alternative text of all images of page.</p>
+</div>
+<div class='tags'>
+</div>
+  </div>
+</div>
+    </div>
+    <div id='footer'>
+  By
+  <a href='https://github.com/coffeedoc/codo' title='CoffeeScript API documentation generator'>
+    Codo
+  </a>
+  2.1.2
+  &#10034;
+  Press H to see the keyboard shortcuts
+  &#10034;
+  <a href='http://twitter.com/netzpirat' target='_parent'>@netzpirat</a>
+  &#10034;
+  <a href='http://twitter.com/_inossidabile' target='_parent'>@_inossidabile</a>
+</div>
+<iframe id='search_frame'></iframe>
+<div id='fuzzySearch'>
+  <input type='text'>
+  <ol></ol>
+</div>
+<div id='help'>
+  <p>
+    Quickly fuzzy find classes, mixins, methods, file:
+  </p>
+  <ul>
+    <li>
+      <span>T</span>
+      Open fuzzy finder dialog
+    </li>
+  </ul>
+  <p>
+    Control the navigation frame:
+  </p>
+  <ul>
+    <li>
+      <span>L</span>
+      Toggle list view
+    </li>
+    <li>
+      <span>C</span>
+      Show class list
+    </li>
+    <li>
+      <span>I</span>
+      Show mixin list
+    </li>
+    <li>
+      <span>F</span>
+      Show file list
+    </li>
+    <li>
+      <span>M</span>
+      Show method list
+    </li>
+    <li>
+      <span>E</span>
+      Show extras list
+    </li>
+  </ul>
+  <p>
+    You can focus and blur the search input:
+  </p>
+  <ul>
+    <li>
+      <span>S</span>
+      Focus search input
+    </li>
+    <li>
+      <span>Esc</span>
+      Blur search input
+    </li>
+  </ul>
+</div>
+  </body>
+</html>
