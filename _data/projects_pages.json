@@ -2,21 +2,31 @@
     {
         "text": "HaTeMiLe for Browser",
         "url": "/projects/hatemile_for_browser/",
-        "icon": "fa-home"
+        "icon": "fa-home",
+        "project": "hatemile_for_browser"
     },
     {
         "text": "Features",
         "url": "/projects/hatemile_for_browser/features/",
-        "icon": "fa-universal-access"
+        "icon": "fa-universal-access",
+        "project": "hatemile_for_browser"
     },
     {
         "text": "Contributing",
         "url": "/projects/hatemile_for_browser/contributing/",
-        "icon": "fa-star"
+        "icon": "fa-star",
+        "project": "hatemile_for_browser"
     },
     {
         "text": "Github",
         "url": "https://github.com/hatemile/web-extension-hatemile-for-browser",
-        "icon": "fa-github"
+        "icon": "fa-github",
+        "project": "hatemile_for_browser"
+    },
+    {
+        "text": "HaTeMiLe for JavaScript",
+        "url": "/projects/hatemile_for_javascript/",
+        "icon": "fa-home",
+        "project": "hatemile_for_javascript"
     }
 ]

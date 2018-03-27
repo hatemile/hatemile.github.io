@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project_page
 title: HaTeMiLe for JavaScript
 permalink: /projects/hatemile_for_javascript/
 ---
