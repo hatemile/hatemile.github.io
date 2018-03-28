@@ -34,5 +34,12 @@
         "url": "/projects/hatemile_for_javascript/documentation/",
         "icon": "fa-book",
         "project": "hatemile_for_javascript"
+    },
+    {
+        "text": "Github",
+        "url": "https://github.com/hatemile/hatemile-for-javascript",
+        "icon": "fa-github",
+        "project": "hatemile_for_javascript",
+        "target": "_blank"
     }
 ]
