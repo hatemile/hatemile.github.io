@@ -100,4 +100,4 @@ accessibleScreenReader.displayAllLanguages();
 
 ### Contributing
 
-If you want contribute with HaTeMiLe for JavaScript, read [contributing guidelines](https://github.com/hatemile/CONTRIBUTING.md).
+If you want contribute with HaTeMiLe for JavaScript, read [contributing guidelines](/projects/hatemile_for_javascript/contributing/).
