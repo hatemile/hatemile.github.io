@@ -78,5 +78,11 @@
         "icon": "fa-github",
         "project": "hatemile_for_java",
         "target": "_blank"
-    }
+    },
+    {
+        "text": "HaTeMiLe for JEE",
+        "url": "/projects/hatemile_for_jee/",
+        "icon": "fa-home",
+        "project": "hatemile_for_jee"
+    },
 ]
