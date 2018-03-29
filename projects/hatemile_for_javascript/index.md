@@ -6,14 +6,9 @@ permalink: /projects/hatemile_for_javascript/
 
 HaTeMiLe (HTML Accessible) is a open source library writen in CoffeeScript and compiled to JavaScript, that can convert a HTML code in a HTML code more accessible.
 
-### Accessibility solutions
+### Features
 
-* [Associate HTML elements](https://github.com/hatemile/hatemile-for-javascript/wiki/Associate-HTML-elements);
-* [Provide a polyfill to CSS Speech and CSS Aural properties](https://github.com/hatemile/hatemile-for-javascript/wiki/Provide-a-polyfill-to-CSS-Speech-and-CSS-Aural-properties);
-* [Display inacessible informations of page](https://github.com/hatemile/hatemile-for-javascript/wiki/Display-inacessible-informations-of-page);
-* [Enable all functionality of page available from a keyboard](https://github.com/hatemile/hatemile-for-javascript/wiki/Enable-all-functionality-of-page-available-from-a-keyboard);
-* [Improve the acessibility of forms](https://github.com/hatemile/hatemile-for-javascript/wiki/Improve-the-acessibility-of-forms);
-* [Provide accessibility resources to navigate](https://github.com/hatemile/hatemile-for-javascript/wiki/Provide-accessibility-resources-to-navigate).
+If you want know the features of HaTeMiLe for JavaScript, read the [features page](/projects/hatemile_for_javascript/features/).
 
 ### Documentation
 
