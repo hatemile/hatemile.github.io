@@ -60,4 +60,11 @@
         "icon": "fa-home",
         "project": "hatemile_for_java"
     },
+    {
+        "text": "Github",
+        "url": "https://github.com/hatemile/hatemile-for-java",
+        "icon": "fa-github",
+        "project": "hatemile_for_java",
+        "target": "_blank"
+    }
 ]
