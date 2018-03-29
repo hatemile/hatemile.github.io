@@ -23,6 +23,8 @@ To generate the full API documentation of HaTeMiLe of JavaScript:
 2. [Install the dependencies of HaTeMiLe of JavaScript](https://docs.npmjs.com/cli/install);
 3. Execute the command `grunt doc` in HaTeMiLe of JavaScript directory.
 
+Or [read the API documentation here](/projects/hatemile_for_javascript/documentation/).
+
 ### Usage
 
 Include the configuration, dependencies and solutions scripts and styles:
