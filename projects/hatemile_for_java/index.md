@@ -181,4 +181,4 @@ printWriter.close();
 
 ### Contributing
 
-If you want contribute with HaTeMiLe for Java, read [contributing guidelines](CONTRIBUTING.md).
+If you want contribute with HaTeMiLe for Java, read [contributing guidelines](/projects/hatemile_for_java/contributing/).
