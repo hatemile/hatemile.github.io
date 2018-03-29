@@ -266,4 +266,4 @@ The configuration path of HaTeMiLe for Java, without properties extension.
 
 ### Contributing
 
-If you want contribute with HaTeMiLe for JEE, read [contributing guidelines](CONTRIBUTING.md).
+If you want contribute with HaTeMiLe for JEE, read [contributing guidelines](/projects/hatemile_for_jee/contributing/).
