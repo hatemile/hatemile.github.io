@@ -53,5 +53,11 @@
         "icon": "fa-github",
         "project": "hatemile_for_javascript",
         "target": "_blank"
-    }
+    },
+    {
+        "text": "HaTeMiLe for Java",
+        "url": "/projects/hatemile_for_java/",
+        "icon": "fa-home",
+        "project": "hatemile_for_java"
+    },
 ]

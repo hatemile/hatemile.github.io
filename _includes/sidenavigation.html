@@ -1,6 +1,7 @@
 <ul class="list-separator nav well well-primary {{ page.layout }}">
 {% for i in site.data.projects_pages %}
-    {% if page.url contains i.project %}
+    {% assign project_page = i.project | append:'/' %}
+    {% if page.url contains project_page %}
         {% assign current = nil %}
         {% assign pageurl = page.url | split:'/' | last %}
         {% assign menuurl = i.url | split:'/' | last %}
