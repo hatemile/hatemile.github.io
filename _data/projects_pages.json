@@ -85,4 +85,11 @@
         "icon": "fa-home",
         "project": "hatemile_for_jee"
     },
+    {
+        "text": "Github",
+        "url": "https://github.com/hatemile/hatemile-jee",
+        "icon": "fa-github",
+        "project": "hatemile_for_jee",
+        "target": "_blank"
+    },
 ]
