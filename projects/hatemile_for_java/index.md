@@ -22,6 +22,8 @@ To generate the full API documentation of HaTeMiLe of Java:
 1. [Install Maven](https://maven.apache.org/install.html);
 2. Execute the command `mvn site` in HaTeMiLe of Java directory.
 
+Or [read the API documentation here](/projects/hatemile_for_java/documentation/).
+
 ### Import the library to your project
 
 #### Maven

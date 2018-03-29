@@ -61,6 +61,12 @@
         "project": "hatemile_for_java"
     },
     {
+        "text": "Documentation",
+        "url": "/projects/hatemile_for_java/documentation/",
+        "icon": "fa-book",
+        "project": "hatemile_for_java"
+    },
+    {
         "text": "Github",
         "url": "https://github.com/hatemile/hatemile-for-java",
         "icon": "fa-github",
